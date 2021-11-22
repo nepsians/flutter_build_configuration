@@ -53,6 +53,7 @@ class _MyHomePageState extends State<MyHomePage> {
   int _counter = 0;
 
   void _incrementCounter() {
+    print(FlutterConfig.get('APP_NAME'));
     setState(() {
       // This call to setState tells the Flutter framework that something has
       // changed in this State, which causes it to rerun the build method below
@@ -75,7 +76,7 @@ class _MyHomePageState extends State<MyHomePage> {
       appBar: AppBar(
         // Here we take the value from the MyHomePage object that was created by
         // the App.build method, and use it to set our appbar title.
-        title: Text(FlutterConfig.get('APP_NAME')),
+        title: Text(FlutterConfig.get('APP_NAME') ?? "Nothing"),
       ),
       body: Center(
         // Center is a layout widget. It takes a single child and positions it

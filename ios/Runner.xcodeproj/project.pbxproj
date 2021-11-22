@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -129,7 +129,6 @@
 				BB574FB851A73E9309C38D76 /* Pods-Runner.release-dev.xcconfig */,
 				A7BACD8C0041C0DEDC5096DA /* Pods-Runner.profile.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -455,6 +454,7 @@
 		};
 		A06EE668274B7EFF00E83C10 /* Debug-dev */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9740EEB21CF90195004384FC /* Debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
